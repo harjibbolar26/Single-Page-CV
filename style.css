@@ -316,3 +316,29 @@ hr {
     padding: 1rem 1.4rem;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .images .image {
+    top: 18rem;
+    height: 35rem;
+    width: 25rem;
+  }
+
+  .images .image.current {
+    transform: translateX(-15%);
+  }
+
+  #left-arrow,
+  #right-arrow {
+    width: 2rem;
+    top: 65%;
+  }
+
+  #left-arrow {
+    left: 4px;
+  }
+  
+  #right-arrow {
+    right: 5px;
+  }
+}
